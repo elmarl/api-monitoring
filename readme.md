@@ -1,6 +1,6 @@
 # API Monitoring Monorepo
 
-This monorepo contains both the frontend and backend applications for the API Monitoring project. The goal is to provide a unified development environment where you can easily manage and run both projects simultaneously.
+This monorepo integrates both the frontend and backend applications for the API Monitoring project, delivering a robust solution for real-time tracking and visualization of API usage, performance, and health. By consolidating these components within a single repository, this setup optimizes development workflows, fosters collaboration, and ensures seamless integration between the backend services and the frontend dashboard.
 
 ## Project Structure
 
@@ -171,51 +171,3 @@ npm install <package-name> --workspace=api-monitoring-dashboard
 ### Shared Configurations
 
 You can place shared configuration files (e.g., ESLint, Prettier) at the root of the monorepo and extend them in each workspace.
-
-### Environment Variables
-
-Remember to keep your `.env` files secure and avoid committing them to version control.
-
-## Contributing
-
-If you wish to contribute to this project, please follow these steps:
-
-### Fork the Repository
-
-Click the "Fork" button at the top right of the repository page.
-
-### Clone Your Fork
-
-```bash
-git clone https://github.com/yourusername/api-monitoring.git
-```
-
-### Create a New Branch
-
-```bash
-git checkout -b feature/your-feature-name
-```
-
-### Make Your Changes
-
-### Commit and Push
-
-```bash
-git add .
-git commit -m "Add your commit message here"
-git push origin feature/your-feature-name
-```
-
-### Create a Pull Request
-
-- Go to your forked repository on GitHub.
-- Click on "Compare & pull request".
-- Submit your pull request for review.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For any questions or issues, please open an issue on the repository or contact the maintainer at [your.email@example.com](mailto:your.email@example.com).

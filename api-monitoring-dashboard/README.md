@@ -63,23 +63,6 @@ Ensure you have the following installed on your machine:
 - **PostgreSQL** (v12 or higher)
 - **Redis** (v6 or higher)
 
-### Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/elmarl/api-usage-monitoring-dashboard.git
-   ```
-
-# Installation
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/elmarl/api-usage-monitoring-dashboard.git
-cd api-usage-monitoring-dashboard
-```
-
 ## Install Dependencies
 
 ```bash
@@ -361,44 +344,3 @@ api-monitoring-dashboard/
 ├── tsconfig.json
 └── README.md
 ```
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-### Fork the Repository
-
-Click the "Fork" button at the top right of the repository page.
-
-### Clone Your Fork
-
-```bash
-git clone https://github.com/yourusername/api-usage-monitoring-dashboard.git
-cd api-usage-monitoring-dashboard
-```
-
-### Create a New Branch
-
-```bash
-git checkout -b feature/your-feature-name
-```
-
-### Make Your Changes
-
-### Commit and Push
-
-```bash
-git add .
-git commit -m "Add your commit message here"
-git push origin feature/your-feature-name
-```
-
-### Create a Pull Request
-
-- Go to your forked repository on GitHub.
-- Click on "Compare & pull request".
-- Submit your pull request for review.
-
-## License
-
-This project is licensed under the MIT License.
