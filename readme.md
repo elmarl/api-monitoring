@@ -49,7 +49,7 @@ This command will install all dependencies for both the frontend and backend pro
 
 #### Frontend
 
-If needed edit the variables in the `.env` file for frontend, navigate to the frontend directory:
+If needed, edit the variables in the `.env` file for frontend, navigate to the frontend directory:
 
 ```bash
 cd frontend
@@ -62,7 +62,7 @@ VITE_SOCKET_URL=http://localhost:3000
 
 #### Backend
 
-If needed edit the variables in the `.env` file for backend, navigate to the `api-monitoring-dashboard` directory:
+If needed, edit the variables in the `.env` file for backend, navigate to the `api-monitoring-dashboard` directory:
 
 ```bash
 cd api-monitoring-dashboard
@@ -85,6 +85,13 @@ REDIS_PORT=6379
 Ensure you have a PostgreSQL database running with the above credentials.
 
 ### 4. Running the Applications
+
+This project requires PostgreSQL and Redis to function properly. To simplify the setup, the backend includes a docker-compose.yml file that also starts Adminer, a web-based tool for managing the PostgreSQL database.
+
+```bash
+cd api-monitoring-dashboard
+docker-compose up --build
+```
 
 From the root of the monorepo, you can start both the frontend and backend applications simultaneously using the following command:
 

@@ -95,7 +95,13 @@ REDIS_PORT=6379
 
 ## Running the Application
 
-To start the application in development mode with hot reloading:
+This project requires PostgreSQL and Redis to function properly. To simplify the setup, the backend includes a docker-compose.yml file that also starts Adminer, a web-based tool for managing the PostgreSQL database.
+
+```bash
+docker-compose up --build
+```
+
+Once the dependencies are running, start the backend application in development mode with hot reloading:
 
 ```bash
 npm run start:dev
