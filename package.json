@@ -1,0 +1,16 @@
+{
+  "name": "api-monitoring",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "api-monitoring-dashboard"
+  ],
+  "scripts": {
+    "start": "concurrently \"npm run start:dev --workspace=api-monitoring-dashboard\" \"npm run dev --workspace=frontend\"",
+    "build": "npm run build --workspace=api-monitoring-dashboard && npm run build --workspace=frontend",
+    "test": "npm run test --workspace=frontend && npm run test --workspace=api-monitoring-dashboard"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
